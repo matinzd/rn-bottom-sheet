@@ -66,7 +66,7 @@ This project is based on [jacklein/rn-bottom-drawer](https://github.com/jacklein
     
 
 | Method  | Description |
-| ---- | ---- | ----| ---- |
+| ---- | ---- |
 | toggleDrawerState() | Open/Close drawer based on previous state   |
 ### Questions?
 Feel free to contact me at [zadehdolatabad@gmail.com](mailto:zadehdolatabad@gmail.com) or [jackdillklein@gmail.com](mailto:jackdillklein@gmail.com) or [create an issue](https://github.com/matinzd/react-native-bottom-drawer/issues/new)   
