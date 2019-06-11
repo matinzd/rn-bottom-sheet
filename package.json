@@ -20,7 +20,7 @@
     "bottom sheet"
   ],
   "author": "\"drawer\",",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/matinzd/rn-bottom-drawer/issues"
   },
