@@ -1,0 +1,28 @@
+{
+  "name": "react-native-bottom-drawer",
+  "version": "1.0.0",
+  "description": "Bottom sheet component purely in JS for react native",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matinzd/rn-bottom-drawer.git"
+  },
+  "keywords": [
+    "react-native",
+    "drawer",
+    "react native bottom sheet",
+    "bottom sheet"
+  ],
+  "author": "\"drawer\",",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matinzd/rn-bottom-drawer/issues"
+  },
+  "homepage": "https://github.com/matinzd/rn-bottom-drawer#readme"
+}
