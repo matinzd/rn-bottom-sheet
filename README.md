@@ -70,3 +70,4 @@ This project is based on [jacklein/rn-bottom-drawer](https://github.com/jacklein
 | toggleDrawerState() | Open/Close drawer based on previous state   |
 ### Questions?
 Feel free to contact me at [zadehdolatabad@gmail.com](mailto:zadehdolatabad@gmail.com) or [jackdillklein@gmail.com](mailto:jackdillklein@gmail.com) or [create an issue](https://github.com/matinzd/rn-bottom-sheet/issues/new)   
+Pull requests are welcomed [PR](https://github.com/matinzd/rn-bottom-sheet/pulls)
