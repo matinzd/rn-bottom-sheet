@@ -100,6 +100,14 @@ export default class BottomDrawer extends Component {
 
   }
 
+  /**
+   * 1 Open
+   * 0 Close
+   */
+  getDrawerState() {
+    return this.state.currentState
+  }
+
   setDrawerState(state) {
     this.setState({
       currentState: state
