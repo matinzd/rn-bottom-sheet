@@ -1,6 +1,6 @@
 {
   "name": "rn-bottom-sheet",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "Bottom sheet component purely in JS for react native",
   "main": "index.js",
   "directories": {
