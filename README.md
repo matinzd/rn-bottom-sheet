@@ -1,8 +1,8 @@
 # Bottom drawer for React Native
+[![npm version](https://badge.fury.io/js/rn-bottom-sheet.svg)](https://badge.fury.io/js/rn-bottom-sheet)
+
 
 ## Content
-
-- [Bottom drawer for React Native](#bottom-drawer-for-react-native)
   - [Installation](#installation)
   - [Usage Example](#usage-example)
   - [Configuration](#configuration)
