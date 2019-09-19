@@ -103,6 +103,7 @@ const styles = {
     position: 'absolute',
     height: height + Math.sqrt(SCREEN_HEIGHT),
     backgroundColor: color,
+    ...this.props.customStyle
   }),
   roundedEdges: rounded => {
     return rounded == true && {

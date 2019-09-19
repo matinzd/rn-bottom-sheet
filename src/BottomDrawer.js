@@ -65,7 +65,12 @@ export default class BottomDrawer extends Component {
     /*
      * An state for changing and toggling drawer 
      */
-    drawerState: PropTypes.number
+    drawerState: PropTypes.number,
+
+    /**
+     * Custom style prop for container
+     */
+    customStyle: PropTypes.object
   }
 
   static defaultProps = {
@@ -135,6 +140,7 @@ export default class BottomDrawer extends Component {
   render() {
     return (
       <Animator
+        customStyle={this.props.customStyle}
         currentPosition={this.state.currentPosition}
         setCurrentPosition={(position) => this.setCurrentPosition(position)}
         toggleThreshold={this.TOGGLE_THRESHOLD}
