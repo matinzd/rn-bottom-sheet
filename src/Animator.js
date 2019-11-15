@@ -42,7 +42,8 @@ export default class Animator extends Component {
           StyleSheet.flatten([
             styles.animationContainer(this.props.containerHeight, this.props.backgroundColor),
             styles.roundedEdges(this.props.roundedEdges),
-            styles.shadow(this.props.shadow)
+            styles.shadow(this.props.shadow),
+            this.props.customStyle
           ])
         ]}
         {...this._panResponder.panHandlers}
@@ -102,8 +103,7 @@ const styles = {
     width: SCREEN_WIDTH,
     position: 'absolute',
     height: height + Math.sqrt(SCREEN_HEIGHT),
-    backgroundColor: color,
-    ...this.props.customStyle
+    backgroundColor: color
   }),
   roundedEdges: rounded => {
     return rounded == true && {
