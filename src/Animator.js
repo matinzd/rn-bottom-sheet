@@ -23,7 +23,7 @@ export default class Animator extends Component {
     });
   }
 
-  componentWillReceiveProps(nextProps) {
+  UNSAFE_componentWillReceiveProps(nextProps) {
     if (nextProps.drawerState !== this.props.drawerState) {
       if (nextProps.drawerState === 0) {
         this._transitionTo(this.props.downPosition, this.props.onCollapsed);
